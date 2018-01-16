@@ -18,9 +18,9 @@ function maybeTrue() {
   return Math.random() >= 0.5;
 }
 function whileLoop(number){
-  while (number > 0){
+  while (number >= 0){
     console.log(--number);
-    return "done";
+    return 'done';
   }
 }
 
