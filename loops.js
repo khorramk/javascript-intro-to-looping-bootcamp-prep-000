@@ -15,6 +15,16 @@ function forLoop(array){
   return array;
 }
 
-function whileLoop(n){
+function whileLoop(nubmer){
+  while (number > 0){
+    console.log(--number);
+    return "done";
+  }
+}
+
+function doWhileLoop(array){
+  do{
+    return array;
+  }
   
 }
