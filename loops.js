@@ -14,7 +14,9 @@ function forLoop(array){
 
   return array;
 }
-
+function maybeTrue() {
+  return Math.random() >= 0.5;
+}
 function whileLoop(nubmer){
   while (number > 0){
     console.log(--number);
@@ -25,6 +27,6 @@ function whileLoop(nubmer){
 function doWhileLoop(array){
   do{
     return array;
-  }
+  }while(maybeTrue())
   
 }
