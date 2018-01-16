@@ -17,8 +17,8 @@ function forLoop(array){
 function maybeTrue() {
   return Math.random() >= 0.5;
 }
-function whileLoop(nubmer){
-  while (number > 0){
+function whileLoop(number){
+  while (number >= 0){
     console.log(--number);
     return "done";
   }
